@@ -1,0 +1,36 @@
+---
+
+import Card from '../components/Cards.astro'
+import hondawhite from '../../public/honda-white.jpeg'
+import hondablack from '../../public/honda-black.jpeg'
+import poo from '../../public/polo.png'
+
+const items = [
+  {
+    title: "Dress Yourself",
+    subtitle: "BE UNIQUE",
+    description: "Discover the Essentials for this Season.",
+    img: poo,
+  },
+  {
+    title: "Another Title",
+    subtitle: "ANOTHER UNIQUE",
+    description: "More description here.",
+    img: "/volks-white.jpeg",
+  },
+];
+---
+
+<section class="flex justify-center items-center ">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-col-3 gap-x-10">
+        {items.map((item) => (
+            <Card 
+                title={item.title}
+                subtitle={item.subtitle}
+                description={item.description}
+                img={item.img}
+            />
+        ))}
+
+    </div>
+</section>
