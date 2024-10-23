@@ -58,9 +58,9 @@ const Header = () => {
                 <h1 className="font-bold text-lg text-left p-4">LUSSO</h1>
             </div>
             <div className="md:flex  hidden justify-end flex-1 gap-5 text-lg ">
-                <a href="#" className="font-light">Producto</a>
-                <a href="#" className="font-light">Nosotros</a>
-                <a href="#" className="font-light">Contacto</a>
+                <a href="#producto" className="font-light">Producto</a>
+                <a href="#nosotros" className="font-light">Nosotros</a>
+                <a href="#contacto" className="font-light">Contacto</a>
             </div>
 
             <div onClick={toggleMenu} className="cursor-pointer p-4 block  md:hidden">
