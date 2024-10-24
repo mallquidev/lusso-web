@@ -3,18 +3,22 @@ import modelo from '../assets/modelo.png';
 
 function Nosotros() {
     return (
-        <div id='nosotros' className="bg-[#F2F1EF] h-[90vh]  flex items-center justify-center flex-col md:flex-row">
+        <div id='nosotros' className="bg-[#F2F1EF] h-[700px]  flex items-center justify-center flex-col md:flex-row">
             <div className="mt-36 text-center md:text-left mb-20 z-50">
                 <div className="flex flex-col ">
-                    <p className="text-black text-7xl md:text-8xl font-light md:ml-24 ml-0">SOMOS</p>
-                    <p className="text-black text-7xl md:text-8xl font-bold">DRIFT</p>
+                    <p className="text-black text-7xl md:text-8xl font-light md:ml-24 ml-0">DRIFT</p>
+                    <p className="text-black text-7xl md:text-8xl font-bold mx-5">LUSSO</p>
                     <div>
-                        <p className="mt-10 font-bold text-lg md:text-base">
-                            Tu nuevo look está a un solo click. Con nuestra nueva colección de poleras <br />
-                            Luciras espectacular.
+                        <p className="mt-10 font-bold text-sm md:text-base mx-5 ">
+                            Descubre la verdadera declaración de estilo con diseños que cuentan una historia. <br />
+                            Cada traje está diseñado para ofrecerte el equilibrio perfecto entre confort, <br />
+                            calidad y estilo... Inspirados en la energía de los carros... <br />
+                            <b>TE ASEGURAMOS QUE DESTACARÁS EN CUALQUIER OCASIÓN</b>
+                            <br />
+                            <br />
                         </p>
                         <br />
-                        <a href='#producto' className="mt-7 bg-black text-white p-3 px-7 transition-colors duration-300 ease-in-out hover:bg-gray-800"
+                        <a href='#producto' className="mt-7 mx-5 bg-black text-white p-3 px-7 transition-colors duration-300 ease-in-out hover:bg-gray-800"
                             onClick={() => {
                                 document.getElementById('producto').scrollIntoView({ behavior: 'smooth' });
                             }}
