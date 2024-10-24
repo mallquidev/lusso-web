@@ -98,9 +98,9 @@ const Productos = () => {
                         </div>
                         <div className="text-center md:text-left md:w-1/2 flex flex-col items-center">
                             <p className="text-3xl font-bold">{product.title}</p>
-                            <p className="text-[#797979] md:text-3xl">{product.subtitle}</p>
+                            <p className="text-[#797979] md:text-lg">{product.subtitle}</p>
                             <div className="flex items-end items-center">
-                                <span className="relative text-lg font-semibold text-[#11181c]">${product.price}</span>
+                                <span className="relative text-2xl font-bold text-[#11181c]">${product.price}</span>
                                 <span className="relative line-through font-semibold text-[#21A0A] ml-3">$56</span>
                                 
                             </div>

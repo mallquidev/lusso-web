@@ -5,17 +5,22 @@ function Nosotros() {
     return (
         <div id='nosotros' className="bg-[#F2F1EF] h-[90vh]  flex items-center justify-center flex-col md:flex-row">
             <div className="mt-36 text-center md:text-left mb-20 z-50">
-                <div className="flex flex-col">
-                    <p className="text-black text-7xl md:text-8xl font-light md:ml-24 ml-0">WE ARE</p>
-                    <p className="text-black text-7xl md:text-8xl font-bold">DENIM</p>
+                <div className="flex flex-col ">
+                    <p className="text-black text-7xl md:text-8xl font-light md:ml-24 ml-0">SOMOS</p>
+                    <p className="text-black text-7xl md:text-8xl font-bold">DRIFT</p>
                     <div>
                         <p className="mt-10 font-bold text-lg md:text-base">
-                            Your new look is just a click away. With our new jeans collection you <br />
-                            will look stunning.
+                            Tu nuevo look está a un solo click. Con nuestra nueva colección de poleras <br />
+                            Luciras espectacular.
                         </p>
-                        <button className="mt-7 bg-black text-white p-3 px-7 transition-colors duration-300 ease-in-out hover:bg-gray-800">
-                            Shop Now
-                        </button>
+                        <br />
+                        <a href='#producto' className="mt-7 bg-black text-white p-3 px-7 transition-colors duration-300 ease-in-out hover:bg-gray-800"
+                            onClick={() => {
+                                document.getElementById('producto').scrollIntoView({ behavior: 'smooth' });
+                            }}
+                        >
+                            COMPRA AHORA
+                        </a>
                     </div>
                 </div>
             </div>

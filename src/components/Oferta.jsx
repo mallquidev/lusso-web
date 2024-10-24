@@ -15,12 +15,20 @@ function Oferta() {
                     </div>
                 </div>
                 <div class="mt-10 md:mt-0 md:ml-10 text-center md:text-left">
-                    <p class="text-5xl md:text-6xl text-gray-600 font-light">NEW</p>
-                    <p class="text-5xl md:text-6xl font-bold">COLLECTION</p>
+                    <p class="text-5xl md:text-6xl text-gray-600 font-light">NUEVA</p>
+                    <p class="text-5xl md:text-6xl font-bold">COLECCIÓN</p>
                     <div class="mt-5">
-                        <p class="font-bold text-xs md:text-sm">YOUR HUNT FOR THE PERFECT JEANS ENDS HERE</p>
+                        <p class="font-bold text-xs md:text-sm">TU BÚSQUEDA DE LAS PERFECTAS POLERAS TERMINA AQUI</p>
                     </div>
-                    <button class="mt-7 bg-black text-white p-3 px-5 transition-colors duration-300 ease-in-out hover:bg-gray-800">Shop Now</button>
+                    {/* <button class="mt-7 bg-black text-white p-3 px-5 transition-colors duration-300 ease-in-out hover:bg-gray-800">COMPRA AHORA</button> */}
+                    <br />
+                    <a href='#producto' className="mt-7 bg-black text-white p-3 px-7 transition-colors duration-300 ease-in-out hover:bg-gray-800"
+                        onClick={() => {
+                            document.getElementById('producto').scrollIntoView({ behavior: 'smooth' });
+                        }}
+                    >
+                        COMPRA AHORA
+                    </a>
                 </div>
             </div>
         </section>
