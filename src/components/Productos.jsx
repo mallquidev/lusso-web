@@ -60,31 +60,31 @@ const products = [
     },
     {
         id: 2,
-        title: "Dress Yourself",
+        title: "SPORTS STYLE",
         price: 45,
-        subtitle: "BE UNIQUE",
-        description: "Discover the Essentials for this Season.",
+        subtitle: "Gti Golf Mk7",
+        description: "",
         img: [volksblack, volksWhite],
     },
-    { id: 3, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [unon, unob], },
-    { id: 4, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [dosn, dosb], },
-    { id: 5, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [tresn, tresb], },
-    { id: 6, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [cuatron, cuatrob], },
-    { id: 7, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [cincon, cincob], },
-    { id: 8, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [seisn, seisb], },
-    { id: 9, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [sieten], },
-    { id: 10, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [ochon, ochob], },
-    { id: 11, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [nueven, nueveb], },
-    { id: 12, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [diezn, diezb], },
-    { id: 13, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [once], },
-    { id: 14, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [docen, doceb], },
-    { id: 15, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [trecen, treceb], },
-    { id: 16, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [catorcen, catorceb], },
-    { id: 17, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [quincen, quinceb], },
-    { id: 18, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [an, ab], },
-    { id: 19, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [bn, bb], },
-    { id: 20, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [cn, cb], },
-    { id: 21, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "Discover the Essentials for this Season.", img: [dn, db], },
+    { id: 3, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "1.", img: [unon, unob], },
+    { id: 4, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "2.", img: [dosn, dosb], },
+    { id: 5, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "3.", img: [tresn, tresb], },
+    { id: 6, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "4.", img: [cuatron, cuatrob], },
+    { id: 7, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "5.", img: [cincon, cincob], },
+    { id: 8, title: "FREDOM ON THE ROAD", price: 45, subtitle: "Honda S2000", description: "", img: [seisn, seisb], },
+    { id: 9, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "7.", img: [sieten], },
+    { id: 10, title: "REBEL FORCE", price: 45, subtitle: "Challenger srt", description: "", img: [ochon, ochob], },
+    { id: 11, title: "FORCE UNLEASHED", price: 45, subtitle: "Challenger srt demond", description: "", img: [nueven, nueveb], },
+    { id: 12, title: "ROTARY REVOLUTION", price: 45, subtitle: "Mazda Rx7", description: "", img: [diezn, diezb], },
+    { id: 13, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "11", img: [once], },
+    { id: 14, title: "MASTERY ON THE TRACK", price: 45, subtitle: "Gtr R35", description: "", img: [docen, doceb], },
+    { id: 15, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "13", img: [trecen, treceb], },
+    { id: 16, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "14", img: [catorcen, catorceb], },
+    { id: 17, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "15", img: [quincen, quinceb], },
+    { id: 18, title: "ART IN MOTION", price: 45, subtitle: "Pagani Bc", description: "", img: [an, ab], },
+    { id: 19, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "17", img: [bn, bb], },
+    { id: 20, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "18", img: [cn, cb], },
+    { id: 21, title: "Dress Yourself", price: 45, subtitle: "BE UNIQUE", description: "19", img: [dn, db], },
 ];
 
 const Productos = () => {
@@ -97,7 +97,7 @@ const Productos = () => {
                             <ImageGallery items={product.img.map(image => ({ original: image }))} showPlayButton={false} showThumbnail={false} showBullets={true} showNav={false} showFullscreenButton={false} />
                         </div>
                         <div className="text-center md:text-left md:w-1/2 flex flex-col items-center">
-                            <p className="text-3xl font-bold">{product.title}</p>
+                            <p className="text-3xl font-bold text-center">{product.title}</p>
                             <p className="text-[#797979] md:text-lg">{product.subtitle}</p>
                             <div className="flex items-end items-center">
                                 <span className="relative text-2xl font-bold text-[#11181c]">${product.price}</span>
